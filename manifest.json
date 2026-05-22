@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "哥舒夜带刀 · 算法守夜人",
+  "version": "0.1.0",
+  "description": "温柔提醒你：你醒着吗？",
+  "permissions": [
+    "storage",
+    "scripting",
+    "alarms"
+  ],
+  "host_permissions": [
+    "*://*.youtube.com/*",
+    "*://*.bilibili.com/*",
+    "*://*.douyin.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "哥舒夜带刀"
+  }
+}
